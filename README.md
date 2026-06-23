@@ -1,0 +1,246 @@
+# Customer Churn Analysis
+
+## Project Overview
+
+This project analyzes customer churn behavior for a telecommunications company using customer demographics, service subscriptions, payment methods, contract types, and account information.
+
+The objective is to identify the key drivers of customer attrition and uncover actionable insights that can support customer retention strategies.
+
+The analysis combines exploratory data analysis and data visualization techniques to understand customer behavior and identify high risk customer segments.
+
+**Tools Used:** Python, Pandas, Matplotlib, Jupyter Notebook
+
+---
+
+# Business Problem
+
+Customer churn represents a significant source of revenue loss for subscription based businesses.
+
+The goal of this project is to answer the following questions:
+
+* Which customers are most likely to churn?
+* What services are associated with higher churn rates?
+* Which customer characteristics indicate churn risk?
+* What factors contribute most to customer attrition?
+
+---
+
+# Dataset
+
+**Dataset:** Telco Customer Churn
+
+**Records:** 7,043 Customers
+
+**Features:** 33 Variables
+
+### Key Fields
+
+* Contract Type
+* Internet Service
+* Payment Method
+* Monthly Charges
+* Tenure Months
+* Customer Lifetime Value (CLTV)
+* Senior Citizen Status
+* Churn Label
+* Churn Reason
+
+---
+
+# Data Exploration
+
+## Overall Churn Rate
+
+| Churn Status | Customers |
+| ------------ | --------: |
+| No           |     5,174 |
+| Yes          |     1,869 |
+
+### Churn Rate
+
+**26.54%**
+
+
+
+
+![Customer Churn Distribution](customer_churn_distribution.png)
+
+
+---
+
+# Contract Analysis
+
+## Churn Rate by Contract Type
+
+| Contract Type  | Churn Rate |
+| -------------- | ---------: |
+| Month-to-month |     42.71% |
+| One year       |     11.27% |
+| Two year       |      2.83% |
+
+### Key Finding
+
+Customers with month-to-month contracts are substantially more likely to churn than customers with long-term contracts.
+
+Longer contract commitments are strongly associated with customer retention.
+
+
+
+
+![Contract Churn Analysis](contract_churn_analysis.png)
+
+
+---
+
+# Internet Service Analysis
+
+## Churn Rate by Internet Service
+
+| Internet Service    | Churn Rate |
+| ------------------- | ---------: |
+| Fiber optic         |     41.89% |
+| DSL                 |     18.95% |
+| No Internet Service |      7.05% |
+
+### Key Finding
+
+Fiber optic customers exhibit the highest churn rate among all internet service categories.
+
+This may indicate service quality concerns, pricing sensitivity, or unmet customer expectations.
+
+
+
+
+![Internet Service Churn](internet_service_churn.png)
+
+
+---
+
+# Payment Method Analysis
+
+## Churn Rate by Payment Method
+
+| Payment Method            | Churn Rate |
+| ------------------------- | ---------: |
+| Electronic Check          |     45.29% |
+| Mailed Check              |     19.11% |
+| Bank Transfer (Automatic) |     16.71% |
+| Credit Card (Automatic)   |     15.24% |
+
+### Key Finding
+
+Customers using electronic checks are significantly more likely to churn compared to customers enrolled in automatic payment methods.
+
+
+
+
+![Payment Method Churn](payment_method_churn.png)
+
+
+---
+
+# Senior Citizen Analysis
+
+## Churn Rate by Senior Citizen Status
+
+| Senior Citizen | Churn Rate |
+| -------------- | ---------: |
+| Yes            |     41.68% |
+| No             |     23.61% |
+
+### Key Finding
+
+Senior citizens demonstrate substantially higher churn rates than non-senior customers and may require targeted retention efforts.
+
+---
+
+# Tenure Analysis
+
+## Key Finding
+
+Customer tenure emerged as one of the strongest indicators of churn behavior.
+
+Customers who churned generally had significantly shorter tenures compared to retained customers, suggesting that churn risk is highest during the early stages of the customer lifecycle.
+
+
+
+
+![Tenure Analysis](tenure_analysis.png)
+
+
+---
+
+# Monthly Charges Analysis
+
+## Key Finding
+
+Customers with higher monthly charges were more likely to churn than customers with lower monthly charges.
+
+This indicates that pricing and perceived value may play a role in customer retention.
+
+
+
+
+![Monthly Charges Analysis](monthly_charges_analysis.png)
+
+
+---
+
+# Churn Reasons Analysis
+
+## Key Finding
+
+Analysis of churn reasons identified several recurring drivers of customer attrition, including:
+
+* Competitor offers
+* Pricing concerns
+* Customer support issues
+* Product dissatisfaction
+
+Understanding these reasons provides actionable opportunities for retention initiatives.
+
+
+
+
+![Top Churn Reasons](top_churn_reasons.png)
+
+
+---
+
+# Business Recommendations
+
+### 1. Promote Long-Term Contracts
+
+Month-to-month customers exhibit the highest churn rates. Incentivizing annual or multi-year contracts may improve retention.
+
+### 2. Improve Fiber Optic Customer Experience
+
+Fiber optic subscribers show significantly elevated churn rates and should be prioritized for service quality and satisfaction initiatives.
+
+### 3. Encourage Automatic Payments
+
+Customers using electronic checks churn at substantially higher rates than customers enrolled in automatic payment methods.
+
+### 4. Focus on Early Customer Retention
+
+Customers with shorter tenure demonstrate greater churn risk, highlighting the importance of onboarding and early engagement programs.
+
+### 5. Monitor High-Risk Customer Segments
+
+Senior citizens and high monthly-charge customers represent key populations for proactive retention.
+
+---
+
+# Technologies Used
+
+* Python
+* Pandas
+* Matplotlib
+* Jupyter Notebook
+
+
+
+# Project Outcome
+
+This analysis identified the strongest factors of customer churn and demonstrated how customer demographics, contract structures, payment methods, and service offerings influence retention behavior. The findings provide actionable recommendations for reducing churn and improving customer retention.
+
