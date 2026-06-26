@@ -1,20 +1,10 @@
-# Customer Churn Analysis
-
-## Project Overview
-
-This project analyzes customer churn behavior for a telecommunications company using customer demographics, service subscriptions, payment methods, contract types, and account information.
-
-The objective is to identify the key drivers of customer attrition and uncover actionable insights that can support customer retention strategies.
-
-The analysis combines exploratory data analysis and data visualization techniques to understand customer behavior and identify high risk customer segments.
-
-**Tools Used:** Python, Pandas, Matplotlib, Jupyter Notebook
-
----
+# Customer Retention Analysis: Why Are Customers Leaving?
 
 # Business Problem
 
-Customer churn represents a significant source of revenue loss for subscription based businesses.
+A telecommunications company is losing customers faster than expected. Acquiring new customers is significantly more expensive than retaining existing ones, making customer churn a major financial concern.
+
+The objective of this project is to identify the customer characteristics, services, and behaviors most strongly associated with churn so that company leadership can prioritize retention efforts and reduce revenue loss.
 
 The goal of this project is to answer the following questions:
 
@@ -23,33 +13,45 @@ The goal of this project is to answer the following questions:
 * Which customer characteristics indicate churn risk?
 * What factors contribute most to customer attrition?
 
----
+## Project Overview
 
-# Dataset
+This project analyzes customer churn behavior for a telecommunications company using customer demographics, service subscriptions, payment methods, contract types, and account information.
 
-**Dataset:** Telco Customer Churn
+**Churn: The rate at which customers stop doing business with a company or cancel their subscriptions over a specific period.**
 
-**Records:** 7,043 Customers
-
-**Features:** 33 Variables
-
-### Key Fields
-
-* Contract Type
-* Internet Service
-* Payment Method
-* Monthly Charges
-* Tenure Months
-* Customer Lifetime Value (CLTV)
-* Senior Citizen Status
-* Churn Label
-* Churn Reason
+**Tools Used:** Python, Pandas, Matplotlib, Jupyter Notebook
 
 ---
+# Data Preparation
+
+The raw dataset was cleaned with Jupyter Notebook customer_churn_analysis.ipynb :
+
+Identified and handled missing values
+
+Converted Total Charges from text to numeric format
+
+Standardized inconsistent categorical values
+
+Checked for duplicate customer records
+
+Corrected data types
+
+Removed records that could not be reliably analyzed
+
+Verified dataset integrity before visualization
+
+
+Data cleaning was documented in Jupyter Notebook in customer_churn_analysis.ipynb
+
 
 # Data Exploration
 
 ## Overall Churn Rate
+**Dataset:** Telco Customer Churn
+
+**Records:** 7,043 Customers
+
+**Features:** 33 Columns
 
 | Churn Status | Customers |
 | ------------ | --------: |
@@ -61,14 +63,15 @@ The goal of this project is to answer the following questions:
 **26.54%**
 
 
-
-
 ![Customer Churn Distribution](customer_churn_distribution.png)
 
 
 ---
 
 # Contract Analysis
+Does contract length affect customer retention?
+
+Long-term contracts generally increase customer commitment, but they may also discourage new customers. This analysis investigates whether customers on month-to-month contracts leave more frequently than customers on annual contracts.
 
 ## Churn Rate by Contract Type
 
@@ -83,6 +86,8 @@ The goal of this project is to answer the following questions:
 Customers with month-to-month contracts are substantially more likely to churn than customers with long-term contracts.
 
 Longer contract commitments are strongly associated with customer retention.
+
+Business Recommendation: Offer targeted incentives encouraging month-to-month customers to switch to annual contracts before their renewal period.
 
 
 
