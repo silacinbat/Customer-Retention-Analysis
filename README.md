@@ -22,27 +22,6 @@ This project analyzes customer churn behavior for a telecommunications company u
 **Tools Used:** Python, Pandas, Matplotlib, Jupyter Notebook
 
 ---
-# Data Preparation
-
-The raw dataset was cleaned with Jupyter Notebook customer_churn_analysis.ipynb :
-
-Identified and handled missing values
-
-Converted Total Charges from text to numeric format
-
-Standardized inconsistent categorical values
-
-Checked for duplicate customer records
-
-Corrected data types
-
-Removed records that could not be reliably analyzed
-
-Verified dataset integrity before visualization
-
-
-Data cleaning was documented in Jupyter Notebook in customer_churn_analysis.ipynb
-
 
 # Data Exploration
 
