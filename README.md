@@ -219,7 +219,5 @@ Senior citizens and high monthly-charge customers represent key populations for 
 
 
 
-# Project Outcome
 
-This analysis identified the strongest factors of customer churn and demonstrated how customer demographics, contract structures, payment methods, and service offerings influence retention behavior. The findings provide actionable recommendations for reducing churn and improving customer retention.
 
