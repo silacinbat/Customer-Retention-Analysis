@@ -15,9 +15,11 @@ The goal of this project is to answer the following questions:
 
 ## Project Overview
 
+**Churn: The rate at which customers stop doing business with a company or cancel their subscriptions over a specific period.**
+
 This project analyzes customer churn behavior for a telecommunications company using customer demographics, service subscriptions, payment methods, contract types, and account information.
 
-**Churn: The rate at which customers stop doing business with a company or cancel their subscriptions over a specific period.**
+
 
 **Tools Used:** Python, Pandas, Matplotlib, Jupyter Notebook
 
@@ -85,9 +87,7 @@ Longer contract commitments are strongly associated with customer retention.
 
 ### Key Finding
 
-Fiber optic customers exhibit the highest churn rate among all internet service categories.
-
-This may indicate service quality concerns, pricing sensitivity, or unmet customer expectations.
+Customers subscribed to fiber internet experienced noticeably higher churn rates than DSL customers. While fiber service typically offers better performance, this result suggests that pricing, customer expectations, or service quality issues may outweigh its benefits. This finding indicates that the company should investigate customer satisfaction within its fiber product line before focusing solely on acquisition.
 
 
 
