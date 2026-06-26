@@ -4,7 +4,7 @@
 
 A telecommunications company is losing customers faster than expected. Acquiring new customers is significantly more expensive than retaining existing ones, making customer churn a major financial concern.
 
-The objective of this project is to identify the customer characteristics, services, and behaviors most strongly associated with churn so that company leadership can prioritize retention efforts and reduce revenue loss.
+The objective of this project is to identify the customer characteristics, services, and behaviors most strongly associated with churn so that company leadership can prioritize retention strategy and reduce revenue loss.
 
 The goal of this project is to answer the following questions:
 
@@ -131,7 +131,7 @@ Customers using electronic checks are significantly more likely to churn compare
 
 ### Key Finding
 
-Senior citizens demonstrate substantially higher churn rates than non-senior customers and may require targeted retention efforts.
+Senior citizens demonstrate substantially higher churn rates than non-senior customers.
 
 ---
 
