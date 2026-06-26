@@ -178,8 +178,6 @@ Analysis of churn reasons identified several recurring drivers of customer attri
 * Customer support issues
 * Product dissatisfaction
 
-Understanding these reasons provides actionable opportunities for retention initiatives.
-
 
 
 
@@ -196,7 +194,7 @@ Month-to-month customers exhibit the highest churn rates. Incentivizing annual o
 
 ### 2. Improve Fiber Optic Customer Experience
 
-Fiber optic subscribers show significantly elevated churn rates and should be prioritized for service quality and satisfaction initiatives.
+Fiber optic subscribers show significantly elevated churn rates and should be prioritized for service quality and satisfaction rates.
 
 ### 3. Encourage Automatic Payments
 
