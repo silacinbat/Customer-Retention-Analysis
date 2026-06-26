@@ -4,14 +4,7 @@
 
 A telecommunications company is losing customers faster than expected. Acquiring new customers is significantly more expensive than retaining existing ones, making customer churn a major financial concern.
 
-The objective of this project is to identify the customer characteristics, services, and behaviors most strongly associated with churn so that company leadership can prioritize retention strategy and reduce revenue loss.
 
-The goal of this project is to answer the following questions:
-
-* Which customers are most likely to churn?
-* What services are associated with higher churn rates?
-* Which customer characteristics indicate churn risk?
-* What factors contribute most to customer attrition?
 
 ## Project Overview
 
@@ -19,6 +12,12 @@ The goal of this project is to answer the following questions:
 
 This project analyzes customer churn behavior for a telecommunications company using customer demographics, service subscriptions, payment methods, contract types, and account information.
 
+The goal of this project is to answer the following questions:
+
+* Which customers are most likely to churn?
+* What services are associated with higher churn rates?
+* Which customer characteristics indicate churn risk?
+* What factors contribute most to customer attrition?
 
 
 **Tools Used:** Python, Pandas, Matplotlib, Jupyter Notebook
