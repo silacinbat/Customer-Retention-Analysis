@@ -66,9 +66,6 @@ Customers with month-to-month contracts are substantially more likely to churn t
 
 Longer contract commitments are strongly associated with customer retention.
 
-Business Recommendation: Offer targeted incentives encouraging month-to-month customers to switch to annual contracts before their renewal period.
-
-
 
 
 ![Contract Churn Analysis](contract_churn_analysis.png)
