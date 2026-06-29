@@ -8,7 +8,6 @@ A telecommunications company is losing customers faster than expected. Acquiring
 
 ## Project Overview
 
-**Churn: The rate at which customers stop doing business with a company or cancel their subscriptions over a specific period.**
 
 This project analyzes customer churn behavior for a telecommunications company using customer demographics, service subscriptions, payment methods, contract types, and account information.
 
