@@ -25,7 +25,7 @@ The goal of this project is to answer the following questions:
 
 # Data Exploration
 
-## Overall Retention Rate
+## Overall 
 **Dataset:** Telco Customer Retention
 
 **Records:** 7,043 Customers
@@ -37,7 +37,7 @@ The goal of this project is to answer the following questions:
 | No           |     5,174 |
 | Yes          |     1,869 |
 
-### Retention Rate
+### 
 
 **26.54%**
 
@@ -52,9 +52,9 @@ Does contract length affect customer retention?
 
 Long-term contracts generally increase customer commitment, but they may also discourage new customers. This analysis investigates whether customers on month-to-month contracts leave more frequently than customers on annual contracts.
 
-## Retention Rate by Contract Type
+##  by Contract Type
 
-| Contract Type  | Retention Rate |
+| Contract Type  |  |
 | -------------- | ---------: |
 | Month-to-month |     42.71% |
 | One year       |     11.27% |
@@ -75,9 +75,9 @@ Longer contract commitments are strongly associated with customer retention.
 
 # Internet Service Analysis
 
-## Retention Rate by Internet Service
+##  by Internet Service
 
-| Internet Service    | Retention Rate |
+| Internet Service    |  |
 | ------------------- | ---------: |
 | Fiber optic         |     41.89% |
 | DSL                 |     18.95% |
@@ -85,7 +85,7 @@ Longer contract commitments are strongly associated with customer retention.
 
 ### Key Finding
 
-Customers subscribed to fiber internet experienced noticeably higher retention rates than DSL customers. While fiber service typically offers better performance, this result suggests that pricing, customer expectations, or service quality issues may outweigh its benefits. This finding indicates that the company should investigate customer satisfaction within its fiber product line before focusing solely on acquisition.
+Customers subscribed to fiber internet experienced noticeably higher s than DSL customers. While fiber service typically offers better performance, this result suggests that pricing, customer expectations, or service quality issues may outweigh its benefits. This finding indicates that the company should investigate customer satisfaction within its fiber product line before focusing solely on acquisition.
 
 
 
@@ -97,7 +97,7 @@ Customers subscribed to fiber internet experienced noticeably higher retention r
 
 # Payment Method Analysis
 
-## retention Rate by Payment Method
+## Retention Rate by Payment Method
 
 | Payment Method            | Retention Rate |
 | ------------------------- | ---------: |
@@ -120,9 +120,9 @@ Customers using electronic checks are significantly more likely to retention com
 
 # Senior Citizen Analysis
 
-## retention Rate by Senior Citizen Status
+## Retention Rate by Senior Citizen Status
 
-| Senior Citizen | retention Rate |
+| Senior Citizen | Retention Rate |
 | -------------- | ---------: |
 | Yes            |     41.68% |
 | No             |     23.61% |
